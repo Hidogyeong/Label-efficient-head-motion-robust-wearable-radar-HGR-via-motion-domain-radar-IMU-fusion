@@ -1,0 +1,23 @@
+{
+  "description": "Very short smoke test: one fold, one seed, two epochs.",
+  "continue_on_error": false,
+  "defaults": {
+    "num_steps": 40,
+    "epochs": 2,
+    "patience": 2,
+    "eval_interval": 1,
+    "batch_size": 512,
+    "hidden": 48,
+    "dropout": 0.15,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "augment": true,
+    "class_mode": 4,
+    "protocol": "mixed_budget",
+    "backbone": "tcn"
+  },
+  "experiments": [
+    {"id": "SMOKE_radar_only", "fusion_method": "radar_only", "folds": [0], "seeds": [42]},
+    {"id": "SMOKE_motion_domain", "fusion_method": "motion_domain_proposed", "folds": [0], "seeds": [42]}
+  ]
+}

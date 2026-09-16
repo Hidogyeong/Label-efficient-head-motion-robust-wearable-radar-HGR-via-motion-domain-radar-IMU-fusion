@@ -1,0 +1,20 @@
+--- fusion_protocol/run_fusion_protocol_suite.py
++++ revision/run_fusion_protocol_suite.py
+@@ -1047,6 +1047,17 @@
+         "val_persons": split_meta["val_persons"],
+         "test_persons": split_meta["test_persons"],
+         "input_dims": prep.input_dims,
++        "lr": float(exp_cfg.get("lr", 5e-4)),
++        "weight_decay": float(exp_cfg.get("weight_decay", 1e-4)),
++        "batch_size": int(exp_cfg.get("batch_size", 512)),
++        "epochs": int(exp_cfg.get("epochs", 80)),
++        "patience": int(exp_cfg.get("patience", 12)),
++        "eval_interval": int(exp_cfg.get("eval_interval", 2)),
++        "hidden": int(exp_cfg.get("hidden", 64)),
++        "dropout": float(exp_cfg.get("dropout", 0.15)),
++        "augment": bool(exp_cfg.get("augment", True)),
++        "jitter_std": float(exp_cfg.get("jitter_std", 0.01)),
++        "scale_std": float(exp_cfg.get("scale_std", 0.03)),
+         **train_info,
+         **{f"test_{k}": float(v) for k, v in main.items() if isinstance(v, (float, int, np.floating))},
+     }

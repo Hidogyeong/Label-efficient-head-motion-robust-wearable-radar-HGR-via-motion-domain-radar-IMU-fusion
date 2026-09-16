@@ -1,0 +1,5 @@
+{
+  "data_root": "/media/dokyeong/MINJI/dokyeong/processedData_radar_imu_geometry_GPT_2",
+  "result_root": "~/hgr_outputs/code_archive_replay_v1",
+  "paper_results_root": "/media/dokyeong/MINJI/dokyeong/RadarIMU_HGR_FusionProtocol_Experiments"
+}

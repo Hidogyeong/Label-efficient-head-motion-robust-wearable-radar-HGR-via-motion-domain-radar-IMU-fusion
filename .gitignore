@@ -1,0 +1,34 @@
+# Local-only original outputs, paths, and archives
+/private_archive/
+/artifacts/
+/workspaces/
+/configs/paths.local.json
+/environment/exports/
+**/paths.env
+.env
+.env.*
+!.env.example
+# Runtime/build products
+**/__pycache__/
+*.py[cod]
+**/.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+# Data and weights are released separately, later.
+/data/raw/
+/data/processed/
+/data/examples/
+/results/runs/
+/results/cache/
+*.npy
+*.npz
+*.mat
+*.pt
+*.pth
+*.ckpt
+*.log
+*.zip
+*.tar.gz
+*.7z

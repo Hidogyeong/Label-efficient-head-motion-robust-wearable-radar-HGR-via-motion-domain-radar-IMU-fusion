@@ -1,0 +1,29 @@
+{
+  "archive": "processing_data.zip",
+  "sha256": "83f09ac96126e1c0ce76a411353a78e3f8634c6ff6f5e64a501f4b4a26f5b71e",
+  "input_entries": 200,
+  "input_files": 175,
+  "input_uncompressed_bytes": 1153495,
+  "processing_decisions": {
+    "preserved": 88,
+    "excluded_generated_bytecode": 16,
+    "original_notebook_local_only": 1,
+    "local_only_gitignored": 19,
+    "deduplicated_exact_nested_copy": 50,
+    "encoding_only_cp949_to_utf8": 1,
+    "recovered_prior_upload_version_unconfirmed": 1
+  },
+  "stage_run_counts": {
+    "smoke": 2,
+    "table5": 75,
+    "backbone": 135,
+    "labels": 150,
+    "five_class": 75,
+    "lr_quick": 6,
+    "lr": 75
+  },
+  "recovered_merge_from_earlier_upload": true,
+  "data_included": false,
+  "model_weights_included": false,
+  "environment_export_included_in_source_archive": false
+}

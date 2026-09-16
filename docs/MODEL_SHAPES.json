@@ -1,0 +1,191 @@
+{
+  "basis": "Instantiated supplied source; no real dataset, no fitted weights.",
+  "models": [
+    {
+      "fusion_method": "radar_only",
+      "backbone": "tcn",
+      "input_dims": {
+        "single": 12
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 51524
+    },
+    {
+      "fusion_method": "early_fusion",
+      "backbone": "tcn",
+      "input_dims": {
+        "single": 24
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 52292
+    },
+    {
+      "fusion_method": "late_fusion",
+      "backbone": "tcn",
+      "input_dims": {
+        "radar": 12,
+        "imu": 12
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 103044
+    },
+    {
+      "fusion_method": "attention_fusion",
+      "backbone": "tcn",
+      "input_dims": {
+        "radar": 12,
+        "imu": 12
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 128004
+    },
+    {
+      "fusion_method": "motion_domain_proposed",
+      "backbone": "tcn",
+      "input_dims": {
+        "single": 11
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 51460
+    },
+    {
+      "fusion_method": "radar_only",
+      "backbone": "gru",
+      "input_dims": {
+        "single": 12
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 52420
+    },
+    {
+      "fusion_method": "early_fusion",
+      "backbone": "gru",
+      "input_dims": {
+        "single": 24
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 53188
+    },
+    {
+      "fusion_method": "late_fusion",
+      "backbone": "gru",
+      "input_dims": {
+        "radar": 12,
+        "imu": 12
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 104836
+    },
+    {
+      "fusion_method": "attention_fusion",
+      "backbone": "gru",
+      "input_dims": {
+        "radar": 12,
+        "imu": 12
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 137220
+    },
+    {
+      "fusion_method": "motion_domain_proposed",
+      "backbone": "gru",
+      "input_dims": {
+        "single": 11
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 52356
+    },
+    {
+      "fusion_method": "radar_only",
+      "backbone": "transformer",
+      "input_dims": {
+        "single": 12
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 87620
+    },
+    {
+      "fusion_method": "early_fusion",
+      "backbone": "transformer",
+      "input_dims": {
+        "single": 24
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 88388
+    },
+    {
+      "fusion_method": "late_fusion",
+      "backbone": "transformer",
+      "input_dims": {
+        "radar": 12,
+        "imu": 12
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 175236
+    },
+    {
+      "fusion_method": "attention_fusion",
+      "backbone": "transformer",
+      "input_dims": {
+        "radar": 12,
+        "imu": 12
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 200196
+    },
+    {
+      "fusion_method": "motion_domain_proposed",
+      "backbone": "transformer",
+      "input_dims": {
+        "single": 11
+      },
+      "num_steps": 40,
+      "num_classes": 4,
+      "hidden": 64,
+      "dropout": 0.15,
+      "num_params": 87556
+    }
+  ]
+}

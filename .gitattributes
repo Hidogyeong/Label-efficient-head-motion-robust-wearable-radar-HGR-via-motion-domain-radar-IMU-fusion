@@ -1,0 +1,8 @@
+* text=auto
+*.sh text eol=lf
+# Do not rewrite legacy bytes on checkout; hashes document these sources.
+legacy/** -text
+experiments/** -text
+recovered_prior_uploads/** -text
+*.png binary
+*.pdf binary

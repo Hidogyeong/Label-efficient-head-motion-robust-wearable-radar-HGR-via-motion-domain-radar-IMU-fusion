@@ -1,0 +1,27 @@
+{
+  "description": "Quick smoke version of the learning-rate sensitivity experiment. Use only for checking runtime, not for paper results.",
+  "continue_on_error": false,
+  "defaults": {
+    "num_steps": 40,
+    "epochs": 20,
+    "patience": 5,
+    "eval_interval": 2,
+    "batch_size": 512,
+    "hidden": 64,
+    "dropout": 0.15,
+    "weight_decay": 0.0001,
+    "scheduler_patience": 3,
+    "augment": true,
+    "class_mode": 4,
+    "protocol": "mixed_budget",
+    "backbone": "tcn",
+    "fusion_method": "motion_domain_proposed"
+  },
+  "folds": [0, 1],
+  "seeds": [42],
+  "experiments": [
+    {"id": "LRQ_motion_domain_tcn_1e-4", "lr": 0.0001},
+    {"id": "LRQ_motion_domain_tcn_5e-4", "lr": 0.0005},
+    {"id": "LRQ_motion_domain_tcn_1e-3", "lr": 0.001}
+  ]
+}

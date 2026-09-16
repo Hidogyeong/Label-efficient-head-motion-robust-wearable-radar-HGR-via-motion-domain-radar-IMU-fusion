@@ -1,0 +1,30 @@
+{
+  "smoke": {
+    "project": "fusion_protocol",
+    "manifest": "manifests/00_smoke.json"
+  },
+  "table5": {
+    "project": "fusion_protocol",
+    "manifest": "manifests/01_table5_fusion_tcn.json"
+  },
+  "backbone": {
+    "project": "fusion_protocol",
+    "manifest": "manifests/02_backbone_robustness.json"
+  },
+  "labels": {
+    "project": "fusion_protocol",
+    "manifest": "manifests/03_label_efficiency_proposed_vs_best_existing.json"
+  },
+  "five_class": {
+    "project": "fusion_protocol",
+    "manifest": "manifests/04_five_class_check.json"
+  },
+  "lr_quick": {
+    "project": "revision",
+    "manifest": "manifests/06_learning_rate_sensitivity_quick.json"
+  },
+  "lr": {
+    "project": "revision",
+    "manifest": "manifests/06_learning_rate_sensitivity.json"
+  }
+}

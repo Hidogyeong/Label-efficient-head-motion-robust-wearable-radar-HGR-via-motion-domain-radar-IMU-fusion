@@ -1,0 +1,178 @@
+[
+  {
+    "path": "experiments/fusion_protocol/analyze_fusion_results.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "experiments/fusion_protocol/make_sample_distribution_table.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "experiments/fusion_protocol/run_fusion_protocol_suite.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "experiments/revision/analyze_fusion_results.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "experiments/revision/analyze_revision_lr_stats.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "experiments/revision/run_fusion_protocol_suite.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/HMI_DataCap_raw_v1.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/IMU_data_cut.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/IMU_processe.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/IMU_processe_v1.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/IMU_txt2csv.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/IMU_txt2csv_junh.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/IMU_txt_junh.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/helpers/DigitalBeamForming.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/helpers/DistanceAlgo.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/helpers/DopplerAlgo.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/helpers/fft_spectrum.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/interpolation/data_interporation_image_filter.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/interpolation/data_interportatiion_EKF_test.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/interpolation/data_interportation_EKF_frame.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/interpolation/data_interportation_EKF_test.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/interpolation/data_interportation_frame.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/interpolation/data_interportation_image.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/interpolation/data_interportation_test.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/raw_to_RDA.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/raw_to_RDAimage_CFAR.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/raw_to_RDAimage_frame_norn_csv.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/raw_to_RDAimage_image_norm.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/raw_to_RDAimage_image_norn_csv.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/raw_to_RDAimages_frame_norm.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/raw_to_STFT.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/BGT60TR13C/raw_to_STFT_NTT.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/geometry/processing_geometry_GPT.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/geometry/processing_geometry_v1.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/geometry/processing_geometry_v2.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/geometry/processing_geometry_v3.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/geometry/processing_geometry_v4.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/geometry/processing_geometry_v5.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/geometry/processing_geometry_v6.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/geometry/processing_geometry_v7.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/geometry/processing_geometry_with_distance.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/geometry/processing_geometry_with_distance_v2.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "legacy/geometry/processing_geometry_xyz.py",
+    "status": "parse_ok"
+  },
+  {
+    "path": "recovered_prior_uploads/Make_Merged_data_v4.py",
+    "status": "parse_ok"
+  }
+]

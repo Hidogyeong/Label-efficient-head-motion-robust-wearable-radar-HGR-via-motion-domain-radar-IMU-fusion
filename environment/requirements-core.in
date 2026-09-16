@@ -1,0 +1,7 @@
+# Import-derived, UNPINNED. Not the historical environment.
+# Prefer export_environment.py from the original PC before installing anything.
+numpy
+pandas
+torch
+scipy
+tabulate

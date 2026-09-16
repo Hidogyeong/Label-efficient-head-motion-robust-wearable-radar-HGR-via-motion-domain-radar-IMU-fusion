@@ -1,0 +1,29 @@
+{
+  "description": "Optional 5-class check for false activation behavior with TCN backbone.",
+  "continue_on_error": false,
+  "defaults": {
+    "num_steps": 40,
+    "epochs": 80,
+    "patience": 12,
+    "eval_interval": 2,
+    "batch_size": 512,
+    "hidden": 64,
+    "dropout": 0.15,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "scheduler_patience": 6,
+    "augment": true,
+    "class_mode": 5,
+    "protocol": "mixed_budget",
+    "backbone": "tcn"
+  },
+  "folds": [0, 1, 2, 3, 4],
+  "seeds": [42, 43, 44],
+  "experiments": [
+    {"id": "F5_radar_only_tcn", "fusion_method": "radar_only"},
+    {"id": "F5_early_fusion_tcn", "fusion_method": "early_fusion"},
+    {"id": "F5_late_fusion_tcn", "fusion_method": "late_fusion"},
+    {"id": "F5_attention_fusion_tcn", "fusion_method": "attention_fusion"},
+    {"id": "F5_motion_domain_proposed_tcn", "fusion_method": "motion_domain_proposed"}
+  ]
+}

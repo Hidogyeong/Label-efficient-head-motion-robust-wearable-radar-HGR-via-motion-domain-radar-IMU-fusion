@@ -1,0 +1,35 @@
+{
+  "description": "Label-efficiency under proposed motion-domain and early fusion. Uses TCN backbone.",
+  "continue_on_error": false,
+  "defaults": {
+    "num_steps": 40,
+    "epochs": 80,
+    "patience": 12,
+    "eval_interval": 2,
+    "batch_size": 512,
+    "hidden": 64,
+    "dropout": 0.15,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "scheduler_patience": 6,
+    "augment": true,
+    "class_mode": 4,
+    "protocol": "partial_mixed",
+    "backbone": "tcn"
+  },
+  "folds": [0, 1, 2, 3, 4],
+  "seeds": [42, 43, 44],
+  "experiments": [
+    {"id": "LE_early_00", "fusion_method": "early_fusion", "label_fraction": 0.0},
+    {"id": "LE_early_10", "fusion_method": "early_fusion", "label_fraction": 0.1},
+    {"id": "LE_early_25", "fusion_method": "early_fusion", "label_fraction": 0.25},
+    {"id": "LE_early_50", "fusion_method": "early_fusion", "label_fraction": 0.5},
+    {"id": "LE_early_100", "fusion_method": "early_fusion", "label_fraction": 1.0},
+
+    {"id": "LE_motion_00", "fusion_method": "motion_domain_proposed", "label_fraction": 0.0},
+    {"id": "LE_motion_10", "fusion_method": "motion_domain_proposed", "label_fraction": 0.1},
+    {"id": "LE_motion_25", "fusion_method": "motion_domain_proposed", "label_fraction": 0.25},
+    {"id": "LE_motion_50", "fusion_method": "motion_domain_proposed", "label_fraction": 0.5},
+    {"id": "LE_motion_100", "fusion_method": "motion_domain_proposed", "label_fraction": 1.0}
+  ]
+}

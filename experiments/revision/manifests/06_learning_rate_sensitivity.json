@@ -1,0 +1,29 @@
+{
+  "description": "Reviewer revision experiment: learning-rate sensitivity for the proposed motion-domain protocol under the same TCN backbone and four-class mixed-budget setting used for the main fusion-strategy comparison.",
+  "continue_on_error": false,
+  "defaults": {
+    "num_steps": 40,
+    "epochs": 80,
+    "patience": 12,
+    "eval_interval": 2,
+    "batch_size": 512,
+    "hidden": 64,
+    "dropout": 0.15,
+    "weight_decay": 0.0001,
+    "scheduler_patience": 6,
+    "augment": true,
+    "class_mode": 4,
+    "protocol": "mixed_budget",
+    "backbone": "tcn",
+    "fusion_method": "motion_domain_proposed"
+  },
+  "folds": [0, 1, 2, 3, 4],
+  "seeds": [42, 43, 44],
+  "experiments": [
+    {"id": "LR_motion_domain_tcn_1e-4", "lr": 0.0001},
+    {"id": "LR_motion_domain_tcn_3e-4", "lr": 0.0003},
+    {"id": "LR_motion_domain_tcn_5e-4", "lr": 0.0005},
+    {"id": "LR_motion_domain_tcn_1e-3", "lr": 0.001},
+    {"id": "LR_motion_domain_tcn_2e-3", "lr": 0.002}
+  ]
+}

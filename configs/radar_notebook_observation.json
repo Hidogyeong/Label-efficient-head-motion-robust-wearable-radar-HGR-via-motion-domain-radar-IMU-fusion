@@ -1,0 +1,39 @@
+{
+  "source": "processing_data.zip::BGT60TR13C/Untitled.ipynb, saved output of cell 0",
+  "status": "single_notebook_observation_not_confirmed_for_all_trials",
+  "sdk_version": "3.5.0",
+  "sensor": "BGT60TR13C",
+  "sequence": [
+    {
+      "loop": {
+        "num_repetitions": 0,
+        "repetition_time_s": 0.07726884633302689,
+        "sub_sequence": [
+          {
+            "loop": {
+              "num_repetitions": 64,
+              "repetition_time_s": 0.0005911249900236726,
+              "sub_sequence": [
+                {
+                  "chirp": {
+                    "end_frequency_Hz": 63000000000.0,
+                    "hp_cutoff_Hz": 80000,
+                    "if_gain_dB": 23,
+                    "lp_cutoff_Hz": 500000,
+                    "num_samples": 64,
+                    "rx_mask": 7,
+                    "sample_rate_Hz": 2000000.0,
+                    "start_frequency_Hz": 58000000000.0,
+                    "tx_mask": 1,
+                    "tx_power_level": 31
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "note": "The notebook fetches the device default acquisition sequence; it is not a complete timestamped trial recorder. No board UUID or ADC sample output is included in this shareable JSON."
+}

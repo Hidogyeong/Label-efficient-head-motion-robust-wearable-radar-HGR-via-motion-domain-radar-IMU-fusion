@@ -1,0 +1,2 @@
+python raw_to_RDAimage_image_norm.py
+python raw_to_RDAimage_image_norn_csv.py
